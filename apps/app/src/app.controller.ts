@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    console.log('merge pr 연습을 위한 코드2');
     return this.appService.getHello();
   }
 }
